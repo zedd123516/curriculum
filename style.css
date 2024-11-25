@@ -1,178 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-}
-
+/* Fondo animado */
 body {
-    text-align: center;
-    font-family: sans-serif;
-
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 63px;
-    background: #171717;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-}
-
-.navbar{
-    display: flex;
-    margin-right: 10px;
-}
-
-.logo {
-    margin-left: 30px;
-}
-
-.logo a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-.navbar a {
-    display: block;
-    padding: 23px  20px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-.navbar a:hover{
-    background: #3f3f3f;
-}
-
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.header{
-    height: 60vh !important;
-    background: url(costos.jpg) no-repeat center;
-    background-size: cover;
-
-}
-
-.title{
-    margin-bottom: 40px;
-    font-size: 60px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #fff ;
-}
-p{
-    margin-bottom: 40px;
-    font-size: 18px;
-    color: #fff;
-    padding: 0 100px;
-}
-
-.btn{
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid #9c27b0;
-    color: #fff;
-    text-decoration: none;
-    background: #9c27b0;
-}
-
-.btn:hover{
-    background: none;
-}
-
-.btn-home{
-    display: flex;
-}
-
-.btn-home a{
-    margin: 0 10px;
-}
-
-.content{
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.sau{
-    padding: 30px;
-    background: #1f1d1d;
-}
-
-.box-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: #333;
     text-align: center;
 }
 
-.box-container .box{
-    height: 11rem;
-    width: 17rem;
-    background: #101010;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 0 .3 5rem rgba(0, 0, 0, 5);
-    margin: 2rem;
-
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
-.box-container .box i{
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
-    text-align: center;
+/* Encabezado */
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    border-bottom: 5px solid #ff3e3e;
+}
+
+/* Tarjeta del perfil */
+.profile {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 400px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    color: #fff;
-    background: #9c27b0;
-    font-size: 2rem;
-    margin: 1rem 0;
+    object-fit: cover;
+    border: 5px solid #ff6f61;
+    margin-bottom: 15px;
 }
 
-.box-container .box h3{
-    font-size: 20px;
-    color: #9c27b0;
+.profile h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #ff6f61;
 }
 
-.box-container .box p{
-    padding: 0 15px;
+.profile p {
     font-size: 16px;
+    color: #555;
 }
 
-.about{
-    background: #171717;
-}
-.price {
-    background: url(costos.jpg) no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-
-}
-
-.contact{
-    padding-top: 20px;
-    background: #171717;
-    padding-bottom: 0;
+/* Pie de página */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    color: #333;
 }
