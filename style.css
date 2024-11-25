@@ -70,3 +70,22 @@ body {
 main {
     flex-grow: 1;
 }
+
+/* Estilos del botón de Instagram */
+.instagram-btn {
+    background-color: #E4405F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px; /* Agrega un espacio superior para separar el botón del pie de página */
+}
+
+.instagram-btn:hover {
+    background-color: #C13584;
+}
