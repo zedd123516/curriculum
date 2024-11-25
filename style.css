@@ -1,63 +1,72 @@
-/* Fondo animado */
+/* Estilos generales */
 body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
-    background-size: 400% 400%;
-    animation: gradientBG 15s ease infinite;
-    color: #333;
-    text-align: center;
+    padding: 0;
 }
 
-@keyframes gradientBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-/* Encabezado */
 header {
-    background-color: #ff6f61;
+    background-color: #4CAF50;
     color: white;
+    text-align: center;
     padding: 20px;
-    border-bottom: 5px solid #ff3e3e;
 }
 
-/* Tarjeta del perfil */
-.profile {
-    margin: 40px auto;
-    padding: 20px;
-    max-width: 400px;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+h1 {
+    margin: 0;
+    font-size: 2.5em;
 }
 
-.profile img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid #ff6f61;
-    margin-bottom: 15px;
+p {
+    font-size: 1.2em;
 }
 
-.profile h2 {
-    font-size: 24px;
+/* Estilos para la imagen */
+.foto {
+    text-align: center;
     margin: 10px 0;
-    color: #ff6f61;
 }
 
-.profile p {
-    font-size: 16px;
-    color: #555;
+.imagen {
+    width: 200px;   /* Ancho de la imagen ajustado a 200px */
+    height: auto;    /* Mantiene la proporción de la imagen */
+    border-radius: 10px;
+    border: 5px solid #4CAF50;
 }
 
-/* Pie de página */
-footer {
-    margin-top: 30px;
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.8);
-    font-size: 14px;
+/* Sección de información */
+.informacion {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 15%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
     color: #333;
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative; /* Cambiado de fixed a relative */
+    width: 100%;
+    bottom: 0;
+    height: 50px; /* Ajusta la altura según sea necesario */
+}
+
+/* Asegura que el contenido tenga suficiente espacio para desplazarse */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
 }
