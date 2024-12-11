@@ -44,6 +44,14 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.bibliografia {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 15%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 h2 {
     color: #333;
 }
@@ -107,3 +115,5 @@ main {
 .instagram-btn:hover {
     background-color: #4CAF50;
 }
+
+

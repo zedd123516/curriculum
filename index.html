@@ -22,14 +22,59 @@
         <p>Hoy sabrás sobre la programación.</p>
     </section>
 
+    <section class="bibliografia">
+        <h2>Mis Gustos</h2>
+        <p>Musica: Cerrando Ciclos</p>
+        <p>Deporte: Fútbol</p>
+        <p>Lecutra: Vivir</p>
+    </section>
+    <div class="row">
+        <div class="col-md-4" id="color1">
+            <p>Div de prueba 1</p>
+        </div>
+        <div class="col-md-4" id="color2">
+            <p>Div de prueba 2</p>
+        </div>
+    </div>
+    <button class="btn btn-success" onclick="cambiarColor('color1','green','color2')">Cambiar Color 1</button>
+    <button class="btn btn-danger" onclick="cambiarColor('color2','red','color1')">Cambiar Color 2</button>
+
     <footer>
         <!-- Botón de Instagram -->
         <a href="https://www.instagram.com/zedd.2525/" class="instagram-btn" target="_blank">
             Visita Mi Instagram
         </a>
+        <!-- Botón de Facebook -->
         <a href="https://www.facebook.com/profile.php?id=100021905484297" class="facebook-btn" target="_blank">
             Visita Mi Facebook
         </a>
+        <!-- Botón de Ingresar   -->
+    <button class="btn btn-sucess" onclick="showMessage()">INGRESAR</button>
+    <button class="btn btn-primary" onclick="cambiarContenido()">Cambiar Contenido</button>
     </footer>
+
+        <!-- Semáforo-->
+
+    </button>
+    <script>
+        function showMessage(){
+            alert("Has presionado el boton Aceptar");
+        }
+        function cambiarContenido(){
+            const texto = document.querySelector('.informacion') //Sirve para atrapar elementos por su clases
+            texto.textContent = "Este es el nuevo contenido generado desde J5";
+        }
+
+        function cambiarColor(idElemento, color, idOtroElemento) {
+            const elemento = document.getElementById(idElemento);
+            const otroElemento = document.getElementById(idOtroElemento);
+
+            // Restablece el color original del otro elemento
+            otroElemento.style.backgroundColor = '';
+
+            // Cambia el color del elemento actual
+            elemento.style.backgroundColor = color;
+        }
+    </script> 
 </body>
 </html>
