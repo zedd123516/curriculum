@@ -56,6 +56,35 @@ h2 {
     color: #333;
 }
 
+.row {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 15%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Cambiar color 1 */
+.btn-success{
+    background-color: #fff;
+    padding: 5px;
+    margin: 0 15%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cambiar color 2 */
+.btn-danger{
+    background-color: #fff;
+    padding: 5px;
+    margin: 0 15%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.);
+}
+
+
+div {
+    color: #333;
+}
 /* Estilo del pie de página */
 footer {
     text-align: center;
@@ -93,6 +122,9 @@ main {
     cursor: pointer;
     margin-top: 20px; /* Agrega un espacio superior para separar el botón del pie de página */
 }
+.instagram-btn:hover {
+    background-color: #4CAF50;
+}
 
 .facebook-btn:hover {
     background-color: #4CAF50;
@@ -112,8 +144,61 @@ main {
     margin-top: 20px; /* Agrega un espacio superior para separar el botón del pie de página */
 }
 
-.instagram-btn:hover {
+.ingresar {
     background-color: #4CAF50;
 }
 
+.btn-sucess {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px; /* Agrega un espacio superior para separar el botón del pie de página */
+}
 
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px; /* Agrega un espacio superior para separar el botón del pie de página */
+}
+
+.card1 {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 15%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+div2 {
+    color: #333;
+}
+
+/* Semáforo */
+.btn-danger1 {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 1px; /* Agrega un espacio superior para separar el botón del pie de página */
+}
