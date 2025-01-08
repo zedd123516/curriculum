@@ -1,13 +1,13 @@
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: blue;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: blue;
     color: white;
     text-align: center;
     padding: 20px;
