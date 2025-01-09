@@ -57,3 +57,16 @@ p {
     margin: 20px auto   ; /* Margen Superior e inferior */
     text-align: center;
 }
+
+.historia { 
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+.logo1 {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10px; 
+}
