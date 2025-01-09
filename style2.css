@@ -23,7 +23,7 @@ p {
 }
 
 .logo {
-    width: 80px;
+    width: 100px;
     height: auto;
     border-radius: 10px;
     margin-right: 10px; 
@@ -45,3 +45,15 @@ p {
     text-align: center;
 }
 
+.Opinion { 
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+.audio{
+    display: block; /* block para que se centre */
+    margin: 20px auto   ; /* Margen Superior e inferior */
+    text-align: center;
+}
